@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "model": "template",
+  "parameters": {
+    "ldos_factor": 1.0,
+    "timing_gain_factor": 1.0
+  }
+}

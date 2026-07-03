@@ -1,0 +1,20 @@
+{
+  "name": "BGO",
+  "density_g_cm3": 7.13,
+  "formula": {
+    "Bi": 4,
+    "Ge": 3,
+    "O": 12
+  },
+  "dominant_photo_element": "Bi",
+  "scintillation": {
+    "light_yield_per_keV": 8.2,
+    "rise_time_ns": 0.03,
+    "decay_components": [
+      {"amplitude_fraction": 0.002, "decay_time_ns": 0.02, "pulse_model": "exponential"},
+      {"amplitude_fraction": 0.1, "decay_time_ns": 60.0, "pulse_model": "standard"},
+      {"amplitude_fraction": 0.898, "decay_time_ns": 300.0, "pulse_model": "standard"}
+    ]
+
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "manufacturing_default",
+  "min_wall_thickness_um": 30.0,
+  "min_feature_um": 50.0,
+  "max_tilt_deg": 10.0
+}

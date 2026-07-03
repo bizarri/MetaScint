@@ -1,0 +1,19 @@
+{
+  "pixel_x_mm": 3.0,
+  "pixel_y_mm": 3.0,
+  "pixel_z_mm": 15.0,
+  "regions": [
+    {"name": "channel_0", "material_role": "BaF2", "xmin": -1.475, "xmax": -1.275, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_1", "material_role": "BaF2", "xmin": -1.225, "xmax": -1.025, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_2", "material_role": "BaF2", "xmin": -0.975, "xmax": -0.775, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_3", "material_role": "BaF2", "xmin": -0.725, "xmax": -0.525, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_4", "material_role": "BaF2", "xmin": -0.475, "xmax": -0.275, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_5", "material_role": "BaF2", "xmin": -0.225, "xmax": -0.025, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_6", "material_role": "BaF2", "xmin": 0.025, "xmax": 0.225, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_7", "material_role": "BaF2", "xmin": 0.275, "xmax": 0.475, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_8", "material_role": "BaF2", "xmin": 0.525, "xmax": 0.725, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_9", "material_role": "BaF2", "xmin": 0.775, "xmax": 0.975, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_10", "material_role": "BaF2", "xmin": 1.025, "xmax": 1.225, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15},
+    {"name": "channel_11", "material_role": "BaF2", "xmin": 1.275, "xmax": 1.475, "ymin": -1.5, "ymax": 1.5, "zmin": 0, "zmax": 15}
+  ]
+}

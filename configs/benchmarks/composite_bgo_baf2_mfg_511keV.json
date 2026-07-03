@@ -1,0 +1,24 @@
+{
+  "material_refs": {
+    "BGO": "configs/materials/bgo.json",
+    "BaF2": "configs/materials/baf2.json"
+  },
+  "geometry_ref": "configs/geometry/composite_channel_manufacturing.json",
+  "photonics_ref": null,
+  "optimization_ref": null,
+  "default_material_role": "BGO",
+  "irradiation": {
+    "front_face_area_fraction": 0.95,
+    "mode": "centered_rectangle_equal_scaling"
+  },
+  "simulation": {
+    "gamma_energy_keV": 511.0,
+    "n_events": 50000,
+    "seed": 20260622,
+    "photon_energy_cutoff_keV": 1.0,
+    "electron_transport": "csda_straight_line",
+    "electron_range_model": "tabata1994_compound_mean_ZA",
+    "photoelectric_postprocess": "fluorescence_or_auger_minimal",
+    "n_example_histories": 2
+  }
+}

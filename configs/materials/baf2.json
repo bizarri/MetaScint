@@ -1,0 +1,17 @@
+{
+  "name": "BaF2",
+  "density_g_cm3": 4.89,
+  "formula": {
+    "Ba": 1,
+    "F": 2
+  },
+  "dominant_photo_element": "Ba",
+  "scintillation": {
+    "light_yield_per_keV": 8.0,
+    "rise_time_ns": 0.01,
+    "decay_components": [
+      {"amplitude_fraction": 0.2, "decay_time_ns": 0.6, "pulse_model": "exponential"},
+      {"amplitude_fraction": 0.8, "decay_time_ns": 620.0}
+    ]
+  }
+}

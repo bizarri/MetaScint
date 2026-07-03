@@ -1,0 +1,6 @@
+{
+  "kind": "uniform_pixel",
+  "pixel_x_mm": 3.0,
+  "pixel_y_mm": 3.0,
+  "pixel_z_mm": 15.0
+}

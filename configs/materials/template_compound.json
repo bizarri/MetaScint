@@ -1,0 +1,8 @@
+{
+  "name": "TEMPLATE",
+  "density_g_cm3": 0.0,
+  "formula": {
+    "ElementSymbol": 1
+  },
+  "dominant_photo_element": "ElementSymbol"
+}

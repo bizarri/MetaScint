@@ -1,0 +1,39 @@
+{
+  "study_name": "fom_joint_screen",
+  "description": "Joint random screen of all 5 manufacturing parameters (groove width, wall width, matrix edge, n_channels, tilt) to map FOM landscape and capture cross-parameter interactions at 511 keV.",
+  "base_config": "configs/benchmarks/composite_bgo_baf2_mfg_511keV.json",
+  "n_events": 5000,
+  "seed": 42,
+  "search_space": {
+    "numeric_parameters": [
+      {"name": "manufacturing.groove_width_mm",       "min": 0.05, "max": 0.45, "step": 0.05, "default": 0.2},
+      {"name": "manufacturing.wall_width_mm",         "min": 0.02, "max": 0.12, "step": 0.02, "default": 0.05},
+      {"name": "manufacturing.matrix_edge_width_mm",  "min": 0.01, "max": 0.08, "step": 0.01, "default": 0.025},
+      {"name": "manufacturing.n_channels",            "min": 4,    "max": 20,   "step": 2,    "default": 12},
+      {"name": "manufacturing.tilt_deg",              "min": 0.0,  "max": 75.0, "step": 15.0, "default": 0.0}
+    ],
+    "categorical_parameters": []
+  },
+  "objective": {
+    "name": "figure_of_merit",
+    "direction": "maximize"
+  },
+  "constraints": [
+    {
+      "type": "manufacturing_width",
+      "params": {
+        "groove": "manufacturing.groove_width_mm",
+        "wall": "manufacturing.wall_width_mm",
+        "matrix_edge": "manufacturing.matrix_edge_width_mm",
+        "n_channels": "manufacturing.n_channels",
+        "pixel_width_mm": 3.0
+      }
+    }
+  ],
+  "solver": {
+    "method": "random",
+    "n_evaluations": 150,
+    "n_initial": 150,
+    "seed": 7
+  }
+}
